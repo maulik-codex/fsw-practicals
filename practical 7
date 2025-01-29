@@ -1,0 +1,13 @@
+class Str_upper 
+{ 
+    public static void main(String args[]) 
+    { 
+       
+        String str_a = "java programming....! "; 
+		 System.out.println("String before Conversion:"+str_a); 
+ 
+        String str_b = str_a.toUpperCase(); 
+
+        System.out.println("String after Conversion:"+str_b); 
+    } 
+}
