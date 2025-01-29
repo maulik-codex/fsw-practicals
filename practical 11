@@ -1,0 +1,10 @@
+11. Write a pattern to match address and pincode.
+
+import java.util.regex.*;
+class String_regex{
+	public static void main(String args[]){
+		System.out.println(Pattern.matches("[0-9[a-z A-Z]]{50}","611 L C V Raman
+Building Parul University Vadodara Gujarat"));
+		System.out.println(Pattern.matches("[0-9]{6}","392015"));
+	}
+}
