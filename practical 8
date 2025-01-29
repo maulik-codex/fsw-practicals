@@ -1,0 +1,11 @@
+8. Write a java program for Matcher
+import java.util.regex.*;
+class Str_regex{
+	public static void main(String args[]){
+		Pattern p = Pattern.compile(" .a");
+		Matcher m = p.matcher("Swara");
+		boolean b1 = m.matches();
+		
+		System.out.println(b1);
+	}
+}
