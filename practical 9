@@ -1,0 +1,14 @@
+9. Write a java program to match the pattern
+
+import java.util.regex.*;
+class Pattern_match
+{
+	public static void main(String args[])
+	{
+		System.out.println(Pattern.matches(".s","as"));
+		System.out.println(Pattern.matches(".s.","msd"));
+		System.out.println(Pattern.matches("s.","soo"));
+		System.out.println(Pattern.matches("s...","such"));
+		System.out.println(Pattern.matches("..s","cos"));
+	}
+}
