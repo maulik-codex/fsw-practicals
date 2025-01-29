@@ -1,0 +1,16 @@
+class Str_buffer
+{  
+    public static void main(String args[])
+	{  
+
+		StringBuffer str_buf=new StringBuffer("Hello students today will learn "); 
+		str_buf.append("Java String Buffer.");
+		System.out.println(str_buf);
+	 
+	
+		str_buf.insert(1,"Java");
+		System.out.println(str_buf);
+	
+	
+	}  
+} 
