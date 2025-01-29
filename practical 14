@@ -1,0 +1,30 @@
+14. WAP to implement File input stream and out stream.
+
+import java.io.*;
+class File_iostream {
+	public static void main(String args[]){
+		
+		String data = ("Maulik bhai - 0005 - IMCA; Om bhai bhatt - 0023 - BCA; Dhruv choudary - 0010 - BSCIT; Kunal Sing - 0015 - MCA");
+		
+		try{
+			FileOutputStream output = new FileOutputStream("iofile.txt");
+			
+			byte []array = data.getBytes();
+			
+			output.write(array);
+			output.close();
+			
+			FileInputStream input = new FileInputStream("iofile.txt");
+			System.out.println("Data in the file: ");
+			int i = input.read();
+			
+			while(i != -1) {
+				System.out.print((char)i);
+				i = input.read();
+			}
+		}
+		catch(Exception e){
+			e.getStackTrace();
+		}
+	}
+}
