@@ -1,0 +1,12 @@
+10. Write a java program for email match.
+
+import java.util.regex.*;
+class Match_pattern
+{
+	public static void main(String args[])
+	{
+		System.out.println(Pattern.matches("[0-9]{13}@paruluniversity.ac.in","2205103120000@paruluniversity.ac.in"));
+		System.out.println(Pattern.matches("[a-z,A-Z,0-9]*@gmail.com","imca6sem@gmail.com"));
+	
+	}
+}
