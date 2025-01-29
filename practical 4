@@ -1,0 +1,19 @@
+class Str_cmp 
+{
+	public static void main(String[] args) 
+	{
+
+
+		String str_a = "java strings";
+		String str_b = "java strings";
+		String str_c = "python";
+
+    
+		boolean cmp1 = str_a.equals(str_b);
+		System.out.println("1st n  2nd  strings are equal: " + cmp1);
+
+   
+		boolean cmp2 = str_a.equals(str_c);
+		System.out.println("1st n 3rd strings  are equal: " + cmp2);
+    }
+}
