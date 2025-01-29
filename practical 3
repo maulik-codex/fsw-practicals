@@ -1,0 +1,15 @@
+class Str_con_ex{
+	
+	public static void main(String args[]){
+
+	String str_1 = " Java ";
+	System.out.println("First String: " + str_1);
+	
+	String str_2 = " Standard Edition ";
+	System.out.println("Secound String: " + str_2);
+	
+	String merge_string = str_1.concat(str_2);
+	System.out.println("Merging String: " + merge_string); 
+ 	
+	}
+}
