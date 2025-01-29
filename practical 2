@@ -1,0 +1,24 @@
+2. Write a java program to print length
+
+class Str_len{
+	
+	public static void main(String args[]){
+		
+		String str_1 = "Java";
+		String str_2 = "Python";
+		String str_3 = "C";
+		
+		System.out.println("String: "+ str_1);
+		System.out.println("String: "+ str_2);
+		System.out.println("String: "+ str_3);
+		
+		int len_1 = str_1.length();
+		System.out.println("Length: " + len_1);
+		int len_2 = str_2.length();
+		System.out.println("Length: " + len_2);
+		int len_3 = str_3.length();
+		System.out.println("Length: " + len_3);
+		
+	}
+
+}
