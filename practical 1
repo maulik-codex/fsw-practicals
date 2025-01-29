@@ -1,0 +1,20 @@
+
+1. Write a java program to print string
+
+class Str_1
+{
+	
+	public static void main(String args[]){
+		
+		String str_1 = "Java";
+		String str_2 = "Python";
+		String str_3 = "C";
+		
+		System.out.println(str_1);
+		System.out.println(str_2);
+		System.out.println(str_3);
+		
+	}
+
+}
+
