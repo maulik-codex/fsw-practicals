@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+</script> 
+	<style type="text/css"> 
+		#e5 { 
+			width: 200px; 
+			height: 200px; 
+			border-radius: 0px; 
+			background-color: cyan; 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<p id="e1">animation </p> 
+	<p id="e2">animation with id selector </p> 
+	<p> 
+		<input type="text" id="e3" value="jQuery is  java script lib!" /> 
+	</p> 
+	<p id="e4" align="left">IMCA 6 BATCH 2024-25 FSW</p> 
+	<p> 
+		<div id="e5"></div> 
+	</p> 
+	<button id="gfg1">Change text</button> 
+	<button id="gfg2">Change text</button> 
+	<button id="gfg3">Change content</button> 
+	<button id="gfg4">Change </button> 
+	<button id="gfg5">Change Shape</button> 
+	<script type="text/javascript"> 
+		$("#gfg1").click(function() { 
+			$("#e1").text("imca 6 fsw"); 
+		}); 
+		$("#gfg2").click(function() { 
+			$("#e2").html("<b>unit 4.</b>"); 
+		}); 
+		$("#gfg3").click(function() { 
+			$("#e3").val("jQuery lib "); 
+		}); 
+		$("#gfg4").click(function() { 
+			$("#e4").attr("align", "center"); 
+		}); 
+		$("#gfg5").click(function() { 
+			$("#e5").css("border-radius", "50px"); 
+		}); 
+	</script> 
+</body> 
+
+</html>
