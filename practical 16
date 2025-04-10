@@ -1,0 +1,28 @@
+import java.util.*;
+public class List_Add 
+{    
+    public static void main(String[] args) 
+	{
+        LinkedList<String> list1 = new LinkedList<String>();
+
+        list1.add("apple ");
+        list1.add("orange");
+        list1.add("grapes");
+        list1.add("blueberry");
+        list1.add("mango");
+
+        System.out.println(list1);
+		
+		 list1.remove("blueberry");
+		 System.out.println(list1);
+        list1.remove(1);
+		System.out.println(list1);
+        list1.removeFirst();
+		System.out.println(list1);
+        list1.removeLast();
+		System.out.println(list1);
+		//list1.removeAll();System.out.println(list1);
+
+        
+    }
+}
