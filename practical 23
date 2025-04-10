@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src=
+	"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".b1").click(function () {
+                $("p").show("show () used to show elements ");
+            });
+        });
+    </script>
+    <style>
+        div {
+            width: 50%;
+            height: 80px;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid green;
+            font-size: 30px;
+			background-color:pink ;
+        }
+        .b1 {
+            margin: 10px;
+        }
+		p {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>IMCA Semester 6 FSW</p>
+    </div>
+    <button class="b1">Click to show</button>
+</body>
+</html>
