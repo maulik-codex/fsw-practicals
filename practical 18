@@ -1,0 +1,22 @@
+import java.util.*;
+public class Queue_ex 
+{
+    public static void main(String args[])
+    {
+        Queue<String> pq = new PriorityQueue<>();
+
+        pq.add("imca");
+        pq.add("sem 6 ");
+        pq.add("fsw");
+
+        System.out.println("Initial Queue " + pq);
+
+        pq.remove("fsw");
+
+        System.out.println("After Remove " + pq);
+
+        System.out.println("Poll Method " + pq.poll());
+
+        System.out.println("Final Queue " + pq);
+    }
+}
